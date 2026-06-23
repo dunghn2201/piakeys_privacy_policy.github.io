@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy for PiaKeys</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #faf8f3;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --line: #d8d3c8;
+      --accent: #8b5cf6;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: clamp(24px, 5vw, 52px);
+      box-shadow: 0 18px 48px rgba(17, 24, 39, 0.08);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin-top: 34px;
+      font-size: 1.25rem;
+      line-height: 1.25;
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .effective-date {
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 28px;
+    }
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Privacy Policy for PiaKeys</h1>
+      <p class="effective-date">Effective date: June 23, 2026</p>
+
+      <p>PiaKeys is a piano learning and MIDI utility app for Android. It helps users connect a digital piano through Bluetooth MIDI or USB MIDI, view notes in real time, preview piano sounds, use a metronome, and play or import MIDI songs.</p>
+
+      <p>This Privacy Policy explains what information PiaKeys handles and how it is used.</p>
+
+      <h2>Information We Collect</h2>
+      <p>PiaKeys does not require an account and does not ask you to provide your name, email address, phone number, precise location, contacts, photos, or payment information.</p>
+      <p>The app may process the following information on your device:</p>
+      <ul>
+        <li>Bluetooth MIDI device information, such as nearby MIDI device names, Bluetooth addresses, signal strength, and connection state.</li>
+        <li>USB MIDI device information, such as connected MIDI device names and available MIDI ports.</li>
+        <li>MIDI note events, such as note number, velocity, note on/off events, and timing.</li>
+        <li>App preferences, such as language, theme, audio volume, metronome settings, and selected MIDI output mode.</li>
+        <li>MIDI files that you choose to import through Android's system file picker.</li>
+      </ul>
+      <p>This information is used to provide the app's core features. Bluetooth, USB MIDI, note events, app preferences, and imported MIDI files are processed locally on your device and are not uploaded by PiaKeys to our servers.</p>
+
+      <h2>Crash Reporting and Diagnostics</h2>
+      <p>PiaKeys uses Sentry to help detect crashes, errors, and performance issues. When an error occurs, Sentry may receive diagnostic information such as:</p>
+      <ul>
+        <li>Crash logs and stack traces.</li>
+        <li>Device model, operating system version, app version, and basic runtime information.</li>
+        <li>Error timestamps and technical metadata needed to diagnose bugs.</li>
+      </ul>
+      <p>This diagnostic information is used only to improve app stability and fix issues. PiaKeys does not intentionally send your MIDI songs, live note performance, or personal files to Sentry.</p>
+      <p>You can learn more about Sentry's privacy practices at <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a>.</p>
+
+      <h2>Permissions</h2>
+      <p>PiaKeys may request the following Android permissions:</p>
+      <ul>
+        <li>Bluetooth permissions, used to scan for, connect to, and communicate with Bluetooth MIDI devices.</li>
+        <li>Notification permission, used for foreground service notifications when MIDI monitoring needs to stay active.</li>
+        <li>Foreground service permission, used to keep MIDI monitoring stable while the app is active or running in the background.</li>
+        <li>USB MIDI access, requested through Android system dialogs when you connect a USB MIDI device.</li>
+      </ul>
+      <p>PiaKeys does not use Bluetooth permissions to determine your location.</p>
+
+      <h2>How We Use Information</h2>
+      <p>Information handled by PiaKeys is used to:</p>
+      <ul>
+        <li>Scan for and connect to Bluetooth MIDI pianos.</li>
+        <li>Connect to USB MIDI devices.</li>
+        <li>Display active piano notes, solfege names, keyboard highlights, and sheet previews.</li>
+        <li>Play piano audio feedback and metronome sounds.</li>
+        <li>Import and play MIDI files selected by the user.</li>
+        <li>Save app settings locally on the device.</li>
+        <li>Diagnose crashes and improve app reliability.</li>
+      </ul>
+
+      <h2>Sharing of Information</h2>
+      <p>PiaKeys does not sell personal information.</p>
+      <p>PiaKeys may share limited diagnostic data with Sentry as described above. This is done only for crash reporting, debugging, and app quality improvement.</p>
+      <p>PiaKeys does not share your imported MIDI files, live MIDI note events, Bluetooth MIDI performance data, or USB MIDI performance data with third parties.</p>
+
+      <h2>Data Retention</h2>
+      <p>App settings are stored locally on your device until you clear the app data or uninstall PiaKeys.</p>
+      <p>Imported MIDI files are accessed only when you choose them through the Android system file picker. PiaKeys does not upload these files.</p>
+      <p>Crash and diagnostic data handled by Sentry is retained according to Sentry's retention settings and policies.</p>
+
+      <h2>Children</h2>
+      <p>PiaKeys is a general-audience piano learning utility. It is not specifically directed to children under 13. The app does not knowingly collect personal information from children.</p>
+
+      <h2>Security</h2>
+      <p>PiaKeys uses platform-provided Android APIs for Bluetooth, USB MIDI, local storage, and network communication. Diagnostic data sent to Sentry is transmitted using secure network connections.</p>
+      <p>No method of electronic transmission or storage is completely secure, but we take reasonable steps to limit data collection and protect diagnostic information.</p>
+
+      <h2>Your Choices</h2>
+      <p>You can:</p>
+      <ul>
+        <li>Deny Bluetooth permissions, although Bluetooth MIDI features will not work.</li>
+        <li>Disconnect Bluetooth or USB MIDI devices at any time.</li>
+        <li>Avoid importing MIDI files.</li>
+        <li>Clear app data or uninstall PiaKeys to remove local settings.</li>
+        <li>Disable network access for the app through Android system settings if your device supports it.</li>
+      </ul>
+
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy as PiaKeys changes. When we make changes, we will update the effective date at the top of this page.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about this Privacy Policy or PiaKeys, please contact:</p>
+      <p>Email: dunghn2201@gmail.com</p>
+    </article>
+  </main>
+</body>
+</html>
